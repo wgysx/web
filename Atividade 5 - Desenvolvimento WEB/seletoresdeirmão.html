@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Seletores de Irmão</title>
+  <style>
+    /* Todos os <p> que são irmãos gerais de <h1> (ou seja, que vêm depois de <h1>) */
+    h1 ~ p {
+      color: green;
+    }
+
+    /* Apenas o <p> que vem imediatamente após <h2> */
+    h2 + p {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Título 1</h1>
+  <p>Parágrafo 1</p>
+
+  <h2>Título 2</h2>
+  <p>Parágrafo 2</p>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Carteirinha</title>
+  <style>
+    body {
+      background: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+    .carteirinha {
+      width: 350px;
+      background: #fff;
+      box-shadow: 0 0 5px #aaa;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .topo {
+      background: linear-gradient(to bottom, #e08e2f, #f2aa48);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+    }
+    .topo-texto {
+      font-size: 14px;
+    }
+    .topo-texto b {
+      display: block;
+      font-size: 16px;
+    }
+    .topo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 4px;
+    }
+    .faixas {
+      height: 8px;
+      background: linear-gradient(to right, #d67200 33%, #009ec3 33% 66%, #b2e9f5 66%);
+    }
+    .info {
+      padding: 12px;
+      font-size: 14px;
+    }
+    .info b {
+      display: inline-block;
+      width: 70px;
+    }
+  </style>
+</head>
+<body>
+  <div class="carteirinha">
+    <div class="topo">
+      <div class="topo-texto">
+        <b>Paulo de Tarso</b>
+       Pedro Musto
+      </div>
+      <img src="https://web.whatsapp.com/1b14eeb4-5912-4279-a80c-04c71d92a352" alt="foto">
+    </div>
+    <div class="faixas"></div>
+    <div class="info">
+      <p><b>Nome:</b> Pedro Musto</p>
+      <p><b>Curso:</b> TI</p>
+      <p><b>Matrícula:</b> 123456789</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4a261;
+            font-weight: bold;
+        }
+        tfoot {
+            background-color: #2a9d8f;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cardápio do Restaurante</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Prato</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Filé a Parmegiana</td>
+                <td>Filé de frango empanado com molho de tomate e queijo</td>
+                <td>R$ 40,0</td>
+            </tr>
+            <tr>
+                <td>Macarrao Espaguete </td>
+                <td>Espaguete ao molho de ovos, bacon e queijo parmesão</td>
+                <td>R$ 35,0</td>
+            </tr>
+            <tr>
+                <td>Salmão</td>
+                <td>Salmão grelhado acompanhado de legumes salteados</td>
+                <td>R$ 50,0 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Aceitamos pagamentos em dinheiro, cartão de crédito e PIX.</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
